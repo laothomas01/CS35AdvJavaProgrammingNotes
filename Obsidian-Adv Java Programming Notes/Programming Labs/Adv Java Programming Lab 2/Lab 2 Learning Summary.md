@@ -7,9 +7,29 @@
 
 # Lab Part 1
 - ## using abstract class, interfaces
-	- in lab 1 we 
+	- use abstract class to encapsulated instances of our automobile class
+	- let's create a class that extends the abstract class called BuildAuto so it can instantiate those encapsulated instances
+	- let's create interfaces: why?
+		- interfaces are a way for developers to determine which class methods from the backend should be public
+		- we make a 'create auto interface', a 'fix auto interface' and an 'update auto interface'
+		- create auto - contains a build auto function used to instantiate the automobiel class and a print auto to find an automobile and print its values
+		- fix auto - for handling software exceptions
+		- update auto - update the values of the automobile such as name and price
+	- the abstract methods within these interfaces are implemented into the build auto class
+		- we define the function of those abstract methods based on the methods we defined within classes such as automobile, and fileio.
+- the overall picture to paint here:
+	- in lab 1 we created a backend with FileIO to load data, and base model reference to perform CRUD operations. 
+		- we also made the option and option set class protected and had to re-define the functionalities of those class' functions inside the automobile class therefore creating a high level of abstraction: we know there is some functionality happening in the back end by looking at the automobile class but we dont really know what is behind the scenes.
+	- in lab 2 we are building an API(application programming interface)
+		- in our interfaces, we specify the methods from public classes we want users to use while hiding away knowledge about our backend
+		- our build auto class is contracted by the interfaces it implements to find uses for their abstract methods
+	- we divide functionaltiy between interface and abstract class:
+		- the interface is for making methods we want public
+		- abstract class is for acting as an encapsulator for instances of classes related or associated to the automobile class
+	- 
 # Lab Part 2
-
+- self healing software:
+	- 
 - ## Part 1
 	- ### Abstract Method
 		- method that has no body
