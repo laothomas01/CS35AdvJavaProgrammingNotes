@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "47cb9119d28a5849",
+    "type": "split",
+    "children": [
+      {
+        "id": "eef65a84e305d1ec",
+        "type": "leaf",
+        "dimension": 72.22222222222221,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Adv Java Programming Lab 2/Self Healing Software.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "937f8bd0c2865491"
+      },
+      {
+        "id": "005e379213b7a8bc",
+        "type": "leaf",
+        "dimension": 27.77777777777778,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Adv Java Programming Lab 2/Self Healing Software.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "937f8bd0c2865491"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f66cc7ebe884fb93",
+    "type": "split",
+    "children": [
+      {
+        "id": "c90644e5de142ff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82458dbbf82c521c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f40ec58a72c033f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7b46d1682bc2c331",
+    "type": "split",
+    "children": [
+      {
+        "id": "76f8da71b0289967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cbb8e9811129cc3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Adv Java Programming Lab 2/Self Healing Software.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eef65a84e305d1ec",
+  "lastOpenFiles": [
+    "Adv Java Programming Lab 1/What did i learn from Adv Java Lab 1?.md",
+    "Advanced Java Programming/Unit 1 Lab Assignment Questions.md",
+    "Software Engineering 101/Software Engineering 101.md",
+    "Adv Java Programming Lab 2/Self Healing Software.md",
+    "Advanced Java Programming/Clarifications of Java topics/Inner Classes.md",
+    "Advanced Java Programming/Progress of Car Configuration Application.md",
+    "Advanced Java Programming/Clarifications of Java topics/FileIO.md",
+    "Advanced Java Programming/Clarifications of Java topics/Constructor chaining.md",
+    "Advanced Java Programming/Clarifications of Java topics/Reading Text File and Build a POJO.md",
+    "Advanced Java Programming/Clarifications of Java topics/Why create classes?.md"
+  ]
+}

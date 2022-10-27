@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "47cb9119d28a5849",
+    "type": "split",
+    "children": [
+      {
+        "id": "fffa03de7d2ce656",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a08668585fcaba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2317cf072aaa61f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Programming Labs/Lab Documents/Assignment 2 and 3.pdf"
+              }
+            }
+          },
+          {
+            "id": "7b655e09d7259c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f66cc7ebe884fb93",
+    "type": "split",
+    "children": [
+      {
+        "id": "c90644e5de142ff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82458dbbf82c521c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f40ec58a72c033f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7b46d1682bc2c331",
+    "type": "split",
+    "children": [
+      {
+        "id": "76f8da71b0289967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cbb8e9811129cc3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "9a08668585fcaba6",
+  "lastOpenFiles": [
+    "Programming Labs/Advanced Java Programing Lab 3/What did i learn.md",
+    "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+    "Programming Labs/Lab Documents/Assignment 2 and 3.pdf",
+    "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
+    "Programming Labs/Lab Documents/Assignment 1.pdf",
+    "Programming Labs/Untitled.md",
+    "Programming Labs/What we have learned so far.md",
+    "Midterm/Midterm.md",
+    "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
+    "Programming Labs/Advanced Java Programing Lab 3/Advanced Java Programing Lab 3.md"
+  ]
+}

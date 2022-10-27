@@ -1,0 +1,16 @@
+- 8 pm - 9 30
+- 6 questions
+- read/write code
+	- reading
+		- code snippet
+			- analyze
+			- write sample output
+			- code correction
+	- writing
+		- write code for a given problem desription
+	- 2 questions writing code
+	- 4 questions reading code
+- comprehensive test 
+	- 
+- know how to code the topics you learned
+- Pen and Paper based
