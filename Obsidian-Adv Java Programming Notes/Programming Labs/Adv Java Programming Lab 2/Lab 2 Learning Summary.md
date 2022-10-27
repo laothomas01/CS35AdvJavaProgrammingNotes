@@ -1,8 +1,15 @@
 ## Summary
-- find method that can potentially cause exception
-- write condition to throw exception
-- catch the exception
-- record exception number into text file.
+- custom exception handler
+- learn about how and why use interfaces
+- learn about how and why use abstract classes
+- what is difference between abstract classes and interfaces
+- what is the "self healing software" feature we created?
+
+# Lab Part 1
+- ## using abstract class, interfaces
+	- in lab 1 we 
+# Lab Part 2
+
 - ## Part 1
 	- ### Abstract Method
 		- method that has no body

@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "e2317cf072aaa61f",
+            "id": "90a389a767c9aaa8",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7b46d1682bc2c331",
@@ -121,17 +120,52 @@
   "ribbon": {
     "mostRecentAction": ""
   },
+  "floating": {
+    "id": "3998ea1bc3ed2a46",
+    "type": "floating",
+    "children": [
+      {
+        "id": "208badc1c28786ff",
+        "type": "window",
+        "children": [
+          {
+            "id": "cf67958f97cf0398",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e2317cf072aaa61f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Programming Labs/Lab Documents/Assignment 2 and 3.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4446,
+        "y": 63,
+        "width": 600,
+        "height": 496,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "9a08668585fcaba6",
   "lastOpenFiles": [
-    "Programming Labs/Advanced Java Programing Lab 3/What did i learn.md",
-    "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+    "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
     "Programming Labs/Lab Documents/Assignment 2 and 3.pdf",
     "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
+    "Programming Labs/Adv Java Programming Lab 2/Untitled.md",
+    "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+    "Programming Labs/Advanced Java Programing Lab 3/What did i learn.md",
     "Programming Labs/Lab Documents/Assignment 1.pdf",
     "Programming Labs/Untitled.md",
     "Programming Labs/What we have learned so far.md",
-    "Midterm/Midterm.md",
-    "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
-    "Programming Labs/Advanced Java Programing Lab 3/Advanced Java Programing Lab 3.md"
+    "Midterm/Midterm.md"
   ]
 }
