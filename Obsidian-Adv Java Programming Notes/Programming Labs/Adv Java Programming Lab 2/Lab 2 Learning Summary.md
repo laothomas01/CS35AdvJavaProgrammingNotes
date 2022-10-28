@@ -15,8 +15,14 @@
 		- create auto - contains a build auto function used to instantiate the automobiel class and a print auto to find an automobile and print its values
 		- fix auto - for handling software exceptions
 		- update auto - update the values of the automobile such as name and price
+		- e.g
+			- ![[Pasted image 20221027171608.png]]
 	- the abstract methods within these interfaces are implemented into the build auto class
 		- we define the function of those abstract methods based on the methods we defined within classes such as automobile, and fileio.
+		- e.g 
+			- ![[Pasted image 20221027171422.png]]
+			- ![[Pasted image 20221027171531.png]]
+			
 - the overall picture to paint here:
 	- in lab 1 we created a backend with FileIO to load data, and base model reference to perform CRUD operations. 
 		- we also made the option and option set class protected and had to re-define the functionalities of those class' functions inside the automobile class therefore creating a high level of abstraction: we know there is some functionality happening in the back end by looking at the automobile class but we dont really know what is behind the scenes.
@@ -29,7 +35,8 @@
 	- 
 # Lab Part 2
 - self healing software:
-	- 
+	- fix auto interface:
+		- ![[Pasted image 20221027171655.png]]
 - ## Part 1
 	- ### Abstract Method
 		- method that has no body
@@ -66,8 +73,25 @@
 		- abstract classes can keep adding non-abstract methods without forcing a contract by sub-class to implement it
 		- interfaces force a contract by sub-class to implement its methods
 - ## Part 2
-	- ### Custom-Exception Handling
-	- 
+	- ### Custom-Exception Handling Class
+	- custom exception ![[Pasted image 20221027173305.png]]
+		fix interface 
+	- ![[Pasted image 20221027173326.png]]
+		 implementing fix interface ![[Pasted image 20221027173400.png]]
+	-  fix function ![[Pasted image 20221027173448.png]]
+	- encounter error, throw and catch exception. 
+	- log error number into .txt file
+	- locate error number in fix function and fix the problem
+	- ![[Pasted image 20221027173021.png]]
+	- run software, encounter error and re-run software until problem is fixed
+		- ![[Pasted image 20221027174317.png]]
+	1) let's handle improper loaded data such as malformed automobile price
+	2) throw the exception if such an error occurs
+	3) catch the exception
+	4) log exception number by caching to .txt file
+	5) read error numbers in .txt file 
+	6) based on those numbers (or some way to handle the recorded error numbers) create methods that represent the functions to fix the sotware
+	7) when running build auto, run function, encounter exception, fix, and re-run(recursion?) until all errors are fixed
 	- ### "Self-Healing Software"
 	- its an algorithm that search for the potential solution based however you write your solution
 	- there should be a limit to how long you must attempt to find your solution and break if there is no solution

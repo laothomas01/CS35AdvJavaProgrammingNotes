@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "325f7a352222e798",
+    "type": "split",
+    "children": [
+      {
+        "id": "6476075df62ae417",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bd03ca242d3bc93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/Lab 3 Summary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d346ef2ed2355a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7d761e5da2ad26b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efafc3144b3deeb8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bac19ec183729bdf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60aeb0a57a767445",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a8847f61cb663a32",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a83619f5f2e95ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df04d86ed1ee3ca6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/Lab 3 Summary.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "39049e6d760de700",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/Lab 3 Summary.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4eccf11475bea66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "52c1f4e1bce26537",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/Lab 3 Summary.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "efafc3144b3deeb8",
+  "lastOpenFiles": [
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/What did i learn.md",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 3/Lab 3 Summary.md",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Untitled.md",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Screenshots/Pasted image 20221026193611.png",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Screenshots/Pasted image 20221026203130.png",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Screenshots/Pasted image 20221026203034.png",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Screenshots/Pasted image 20221026193631.png",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
+    "Obsidian-Adv Java Programming Notes/Programming Labs/Adv Java Programming Lab 2/Overview.md",
+    "README.md"
+  ]
+}
