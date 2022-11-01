@@ -5,7 +5,7 @@
 	- review of data structures
 - ## Data Structures
 	- data structure: systematic way of organizing a collection of data
-	- static data structure: one whose capacity is fixed at creation
+	- static data structure: one whose capacity is fixed at creation[[Lab 1,2,3 Summary]]
 	- dynamic data structure: one whose capacity is variable.
 		- size can expand or contract at any time\
 			- i.e linked list, binary tree

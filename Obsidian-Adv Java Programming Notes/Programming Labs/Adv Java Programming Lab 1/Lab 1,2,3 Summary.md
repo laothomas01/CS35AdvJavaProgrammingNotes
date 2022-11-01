@@ -1,0 +1,74 @@
+## Topics
+- encapsulation,code containment
+- abstraction
+- inner classes
+- serialization
+- *protected* access modifier
+- interfaces
+- abstract classes
+- interfaces vs abstract classes
+- custom exception handling
+- self healing software
+-  API(application programming interface) creation
+- template classes,generics
+_______ 
+# Lab 1
+- **encapsulation, code containment,inner classes**
+	- **HIDING OF INFORMATION**
+	- packing of data and functions operating on that data into a single component and restricting the access to some of the object's components
+	- containment as a form of code organization and security
+		- member and function access can only be through the public object
+	- beyond the object's definiton, internal representation of the object is hidden from view
+	- e.g 
+		- ![[Pasted image 20221030221618.png]]
+		- proxy auto contains instanc![[Pasted image 20221030221935.png]]
+		- automobile contains collection of optionset instances![[Pasted image 20221030221835.png]]
+		- optionset contains a collection of option instances![[Pasted image 20221030221900.png]]
+- **abstraction**:
+	- **HIDING OF IMPLEMENTATION**
+	- generalized understanding of essential purpose for a function or piece of data without knowing its implementation, or background.
+	- e.g: 
+		- people asking " just give me the facts, the highlights, tldr, get to the point!"
+		- we just know Automobile instance can read option set through an input index. we don't know how and that's called abstraction!![[Pasted image 20221030223705.png]]
+**serialization**: converting the state of an object into a byte stream.
+- can an inner class be serialized and should it?
+	- serializing an inner class requires the serialization of its outer class instance.
+- **protected access modifier**: only classes in the same package have access to object instances and members
+# Lab 2
+![[Pasted image 20221031123847.png]]
+- **interfaces**: 
+	- a implementing class is required to implement the interface's abstract methods
+	- variables are final, all implemented methods are public
+	- does not require defined abstract methods. can be used to make a class multiple data types too
+		- e.g person class implemented Swimmable, Runnable. you can define an instance of person as: 
+			- Swimmable person = new Person( )
+	- ![[Pasted image 20221031123710.png]]
+	- ![[Pasted image 20221031123741.png]]
+- **abstract class**:
+	- can have abstract methods
+	- variables dont have to be final, methods dont have to be public unless made abstract
+	- also does not require abstract methods
+	- ![[Pasted image 20221031123646.png]]
+- **interface vs abstract class**, **building an API**, **why use either?**
+	- can implement multiple interfaces, can only extend one abstract class
+	- an API is built through implementation of an interface
+		- a class implements the interface and is contractually required to implement the classes a developer chooses to publicly expose
+		- API can be built from an abstract class but careful implementation is required as a class can only extend one class
+	- interfaces used when you dont care who implements the interface
+	- abstract class used to extend its members to another close related class and care about who extends it
+- **custom exception handling** 
+	- try-catch block, if error, throw custom exception and catch it
+	- log error num, log error in .log file, find error number case in a fix function and fix it
+	- ![[Pasted image 20221031124102.png]]
+	- ![[Pasted image 20221031124356.png]]
+- # Lab 3
+- **generics,template class**:
+	- class definition where variables can be passed as parameters
+	- < T > is generic type
+	- < T >  - all instances of this class represents a class of type T
+	- < T extends *Automobile*> - all instances of this class represents represents a **sub-class of *Automobile*** or **IS class *Automobile***
+	- ![[Pasted image 20221031125223.png]]
+- **why template class**?
+	- generics allow you to re-use the same code for different inputs
+- ![[Pasted image 20221031130910.png]]
+- ![[Pasted image 20221031130824.png]]

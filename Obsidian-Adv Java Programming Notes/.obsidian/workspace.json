@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fffa03de7d2ce656",
+        "id": "f85611384d11192d",
         "type": "tabs",
         "children": [
           {
-            "id": "9a08668585fcaba6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90a389a767c9aaa8",
+            "id": "b68a492adc5b7e36",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Programming Labs/Lab Documents/Assignment 2 and 3.pdf"
-              }
-            }
-          },
-          {
-            "id": "7b655e09d7259c73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -99,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
+                "file": "Programming Labs/Advanced Java Programming Lab 4/Reflection Questions on Unit 2 and 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,28 +93,27 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "floating": {
     "id": "3998ea1bc3ed2a46",
     "type": "floating",
     "children": [
       {
-        "id": "208badc1c28786ff",
+        "id": "a81eb7faa97b9adc",
         "type": "window",
         "children": [
           {
-            "id": "cf67958f97cf0398",
+            "id": "6fd1d35d15a30b92",
             "type": "tabs",
             "children": [
               {
-                "id": "e2317cf072aaa61f",
+                "id": "3ae62a431ce3ed1c",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "Programming Labs/Lab Documents/Assignment 2 and 3.pdf"
+                    "file": "Programming Labs/Advanced Java Programming Lab 4/Reflection Questions on Unit 2 and 3.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
@@ -146,26 +121,26 @@
           }
         ],
         "direction": "vertical",
-        "x": 4446,
-        "y": 63,
-        "width": 600,
-        "height": 496,
+        "x": 2126,
+        "y": 86,
+        "width": 1929,
+        "height": 1080,
         "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "9a08668585fcaba6",
+  "active": "3ae62a431ce3ed1c",
   "lastOpenFiles": [
-    "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
     "Programming Labs/Lab Documents/Assignment 2 and 3.pdf",
+    "Programming Labs/Advanced Java Programing Lab 3/Advanced Java Programing Lab 3.md",
+    "Programming Labs/Adv Java Programming Lab 2/Overview.md",
     "Programming Labs/Adv Java Programming Lab 2/Lab 2 Learning Summary.md",
-    "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
-    "Programming Labs/Adv Java Programming Lab 2/Untitled.md",
     "Programming Labs/Advanced Java Programing Lab 3/What did i learn.md",
-    "Programming Labs/Lab Documents/Assignment 1.pdf",
-    "Programming Labs/Untitled.md",
-    "Programming Labs/What we have learned so far.md",
-    "Midterm/Midterm.md"
+    "Programming Labs/Advanced Java Programming Lab 4/Reflection Questions on Unit 2 and 3.md",
+    "Programming Labs/Advanced Java Programming Lab 4/Advanced Java Programming Lab 4.md",
+    "Programming Labs/Adv Java Programming Lab 1/Lab 1 Learning Summary.md",
+    "Programming Labs/Adv Java Programming Lab 1/Lab 1,2,3 Summary.md",
+    "Programming Labs/Lab Documents/Assignment 4.pdf"
   ]
 }
