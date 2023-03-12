@@ -1,0 +1,52 @@
+# Quick Notes
+- multi-threading
+- test application using interfaces instead of class instances
+	- interfaces also act as extended data types
+- need to think deeper about what and how APIs are used
+- make abstract class instances static to update the instances
+- Unsynchronized Thread Testing:
+	- two threads trying to modify an object simultaneously
+	- leads to corruption of data
+- Sychronized Thread Testing:
+	- more taxing on performance
+	- different threads can access an object's data and modify it without problems
+
+- [x] Multi-Threading
+	- [x] unsynchronized thread implementation
+	- [x] sychronized thread implementation
+- [ ] Clean Up previous lab mistakes
+- ## Multi-threading
+	- **processes** - a task
+	- **multi-tasking** - executing multiple tasks at a time
+	- **multi-threading** - 
+		- divding tasks between a thread
+		- thread based multi-tasking
+	- **multi-processing**: switching from one process to another, and allocating procesing time while switching.
+	- ### Thread LifeCycle
+		- New: thread is created
+		- Runnable: when start() method called over thread processed by the thread scheduler
+			- 1) thread A: can be running
+			- 2) thread B: can not be running
+		- Running: when it hits case 1, scheduler has selected the thread to transition from runnable state -> run state
+		- Blocked: when it hits case 2, scheduler has selected the thread to not be allowed to change state from runnable to run
+		- Terminated: when run method exits or stop()
+- ## Using Synchronized Functions
+	- synchronized
+		- multiple threads working on single object with object locking
+			- must be properly used or risk performance issues
+			- dont have to worry about nested functions
+			- currently called synchronized function locks down accessing object
+		- ## Steps
+			- 1. create a class with modificble attribute, instantiate class object
+			- 2. either implement runnable or extend Thread
+			- 3. create threads
+			- 4. pass object being modified into threads
+			- 5. perform thread access and modification
+		- 
+		- ![[Pasted image 20221109135935.png]]
+	- unsynchronized
+		- multiple threads working on single object with object locking
+			- faster than synchronized but can lead to data corruption or concurrency exception
+	- ## Wait, Notify
+		- 
+In this part we will build networking  capability to make KBB app running in a server and accessible by client(s)

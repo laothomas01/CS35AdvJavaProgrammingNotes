@@ -3,6 +3,9 @@
 	- generics
 	- class templates
 	- review of data structures
+	- collections
+- ## Collections
+	- 
 - ## Data Structures
 	- data structure: systematic way of organizing a collection of data
 	- static data structure: one whose capacity is fixed at creation[[Lab 1,2,3 Summary]]

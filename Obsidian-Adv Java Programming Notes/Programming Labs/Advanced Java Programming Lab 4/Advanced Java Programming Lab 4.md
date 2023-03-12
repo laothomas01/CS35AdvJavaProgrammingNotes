@@ -86,40 +86,37 @@
 	- **Thread** - a task
 		### 2 types of threads
 		- **Non-Pre-emptive**
-			- once CPU gives attention to the process, it must complete the allocated block of time
+			- once CPU gives attention to the process, **it must** complete the allocated block of time
 			- e.g Application threads
 		- **Pre-emptive**
-			- if CPU has given attention to the process, it doesnt have to complete the allocated block of time if the next process of higher priority comes into the picture. 
-			- OS threads are pre-emptive****
+			- if CPU has given attention to the process, **it doesnt** have to complete the allocated block of time if the next process of higher priority comes into the picture. 
+			- OS threads are pre-emptive
 	- **Multi-Threading**: able to do multiple tasks at the same time
-	
 	- **Multi-Processing**: running multiple processes at the same time. 
-	
 		- e.g playing video game while running microsoft word at time same
-	
 	- ### Inside of a process: 
-		- a program loaded form storage
+		- a program loaded from storage
 		- program -> process 
 		- instructions are loaded into RAM
-		- structure of RAM(CS,DS,Stack, Heap)
+		- structure of RAM(CS,DS,Stack, Heap,PC)
 		- CS(Code Segment): 
 			- part of memory where all instructions are saves
-	- **DS(Data Segment)**
-		- part of memory where all variables are saved
-	- **Stack**
-		- used for 3 things 
-			- 1) solving expressions
+		- **DS(Data Segment)**
+			- part of memory where all variables are saved
+		- **Stack**
+			- used for 3 things 
+				- 1) solving expressions
+		
+				- 2) passing values into function
+		
+				- 3) passing values into local variables
 	
-			- 2) passing values into function
+		- ### Heap:
 	
-			- 3) passing values into local variables
+			- rest of memory for dynamic memory allocation
 
-	- ### Heap:
-
-		- rest of memory for dynamic memory allocation
-
-	- ### **Program Counter**(PC): 
-	- keeps track of instruction being loaded
+		- ### **Program Counter**(PC): 
+			- keeps track of instruction being loaded
 
 - ### **Context Switching**:
 	- move from one process to next and for a unit of time. 
@@ -132,25 +129,25 @@
 
 - has the following algorithms:
 
-- round robin:
+- **Round Robin**:
 
-- let's give each process 20 units of time
+	- let's give each process 20 units of time
+	
+	- p1 = 10, p2 = 30, p3 = 40
+	
+	- p1 = 1 ,DONE
+	
+	- p2 = 2
+	
+	- p3 = 3
+	
+	- p2 = 4 ,DONE
+	
+	- p3 = 5 ,DONE
 
-- p1 = 10, p2 = 30, p3 = 40
+- **Priority Based**: 
 
-- p1 = 1 ,DONE
-
-- p2 = 2
-
-- p3 = 3
-
-- p2 = 4 ,DONE
-
-- p3 = 5 ,DONE
-
-- priority based: 
-
-- process with highest priority goes first
+	- process with highest priority goes first
 
 - JVM - an OS
 
@@ -164,11 +161,12 @@
 
 - (call back) 
 
-- Java thread supports locking shared object through synchronization
+- Java thread **supports locking shared object through synchronization**
 
 - **What is #Synchronization**?
 
--  locking an object by creating a queue for giving access to each thread. prevents other operatons on the object from being carried out.
+	-  locking an object by creating a queue for giving access to each thread. prevents other operatons on the object from being carried out.
+	- stops 2 or more threads from acting on an operation
 - e.g in java
 
 - public synchronized void deposit() { }

@@ -13,9 +13,10 @@
 				- OptionSet DEPENDS on Option
 				- Utility package class FileIO ASSOCIATES with Automotive.
 					- FileIO associating with Automotive also creates associations with classes Automotive depends on.
-		- ## Thinking Automically
-			- find common behaviors between classes to provide polymorphism
-				- also gives reason to use an interface or abstract class
+		- ## Thinking Atomically
+			- polymorphism
+				- find common behaviors between classes to provide 
+					- also gives reason to use an interface or abstract class
 				- i.e in video games
 					- enemy is a game entity
 					- player is a game entity

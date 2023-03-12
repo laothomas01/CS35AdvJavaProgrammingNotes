@@ -6,7 +6,7 @@ Topics
 - difference between abstract class and interface
 - self-healing software algorithms
 - try, throw, catch exceptions
-- 
+- collections
 
 **Gaining a high level perspective of this assignment**
 
